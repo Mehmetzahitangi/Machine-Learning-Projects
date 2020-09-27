@@ -1,0 +1,95 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Tech_Support_No<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    0 -> 1 [label="yes, missing" color="#0000FF"]
+    0 -> 2 [label="no" color="#FF0000"]
+
+    1 [ label="Contract_Two_year<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    1 -> 3 [label="yes, missing" color="#0000FF"]
+    1 -> 4 [label="no" color="#FF0000"]
+
+    3 [ label="Internet_Service_Fiber_optic<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    3 -> 7 [label="yes, missing" color="#0000FF"]
+    3 -> 8 [label="no" color="#FF0000"]
+
+    7 [ label="Tenure_Months<1.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    7 -> 15 [label="yes, missing" color="#0000FF"]
+    7 -> 16 [label="no" color="#FF0000"]
+
+    15 [ label="leaf=0.0288209617" fillcolor="#e48038" shape="box" style="filled" ]
+
+    16 [ label="leaf=-0.097842969" fillcolor="#e48038" shape="box" style="filled" ]
+
+    8 [ label="Tenure_Months<43.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    8 -> 17 [label="yes, missing" color="#0000FF"]
+    8 -> 18 [label="no" color="#FF0000"]
+
+    17 [ label="leaf=0.0675990731" fillcolor="#e48038" shape="box" style="filled" ]
+
+    18 [ label="leaf=-0.0293906815" fillcolor="#e48038" shape="box" style="filled" ]
+
+    4 [ label="Monthly_Charges<106.425003" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    4 -> 9 [label="yes, missing" color="#0000FF"]
+    4 -> 10 [label="no" color="#FF0000"]
+
+    9 [ label="Latitude<41.7983856" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    9 -> 19 [label="yes, missing" color="#0000FF"]
+    9 -> 20 [label="no" color="#FF0000"]
+
+    19 [ label="leaf=-0.178142071" fillcolor="#e48038" shape="box" style="filled" ]
+
+    20 [ label="leaf=0.00909090973" fillcolor="#e48038" shape="box" style="filled" ]
+
+    10 [ label="Monthly_Charges<108.775002" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    10 -> 21 [label="yes, missing" color="#0000FF"]
+    10 -> 22 [label="no" color="#FF0000"]
+
+    21 [ label="leaf=0.0216216221" fillcolor="#e48038" shape="box" style="filled" ]
+
+    22 [ label="leaf=-0.106172837" fillcolor="#e48038" shape="box" style="filled" ]
+
+    2 [ label="Tenure_Months<25.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    2 -> 5 [label="yes, missing" color="#0000FF"]
+    2 -> 6 [label="no" color="#FF0000"]
+
+    5 [ label="Internet_Service_DSL<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    5 -> 11 [label="yes, missing" color="#0000FF"]
+    5 -> 12 [label="no" color="#FF0000"]
+
+    11 [ label="Contract_One_year<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    11 -> 23 [label="yes, missing" color="#0000FF"]
+    11 -> 24 [label="no" color="#FF0000"]
+
+    23 [ label="leaf=0.13788037" fillcolor="#e48038" shape="box" style="filled" ]
+
+    24 [ label="leaf=-0.0142857153" fillcolor="#e48038" shape="box" style="filled" ]
+
+    12 [ label="Tenure_Months<5.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    12 -> 25 [label="yes, missing" color="#0000FF"]
+    12 -> 26 [label="no" color="#FF0000"]
+
+    25 [ label="leaf=0.103378378" fillcolor="#e48038" shape="box" style="filled" ]
+
+    26 [ label="leaf=-0.00997624733" fillcolor="#e48038" shape="box" style="filled" ]
+
+    6 [ label="Internet_Service_DSL<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    6 -> 13 [label="yes, missing" color="#0000FF"]
+    6 -> 14 [label="no" color="#FF0000"]
+
+    13 [ label="Tenure_Months<59.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    13 -> 27 [label="yes, missing" color="#0000FF"]
+    13 -> 28 [label="no" color="#FF0000"]
+
+    27 [ label="leaf=0.0489607416" fillcolor="#e48038" shape="box" style="filled" ]
+
+    28 [ label="leaf=-0.0445859879" fillcolor="#e48038" shape="box" style="filled" ]
+
+    14 [ label="Senior_Citizen_No<0.5" fillcolor="#78cbe" shape="box" style="filled,rounded" ]
+    14 -> 29 [label="yes, missing" color="#0000FF"]
+    14 -> 30 [label="no" color="#FF0000"]
+
+    29 [ label="leaf=-0.0016806724" fillcolor="#e48038" shape="box" style="filled" ]
+
+    30 [ label="leaf=-0.0966292173" fillcolor="#e48038" shape="box" style="filled" ]
+}
